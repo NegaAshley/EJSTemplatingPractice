@@ -13,6 +13,16 @@
     <p>
         <!-- Pulling rand from index.js rand variable -->
         <%=rand%>
+            <!-- Each line of JS needs opening and closing components -->
+            <% if(rand % 2==0){ %>
+                <h2>Even number!</h2>
+                <%}else{%>
+                    <h2>Odd number!</h2>
+                    <%}%>
+                        <h3>
+                            <!-- Example of ternary operator -->
+                            That number is <%= rand %2==0 ? 'EVEN' : 'ODD' %>
+                        </h3>
     </p>
 </body>
 
