@@ -13,4 +13,5 @@ icon.
 8. Type npm install to install dependencies.
 9. Type nodemon index.js to run the project.
 10. Open Chrome and navigate to localhost:3000
+11. Press Control + C in Git Bash when you would like to terminate the Node server.
 
