@@ -11,5 +11,5 @@ icon.
 6. Type git clone, and then paste the URL you copied earlier.
 7. Press Enter to create your local clone.
 8. Type npm install to install dependencies.
-9. Type npm index.js to run the project.
+9. Type nodemon index.js to run the project.
 
